@@ -14,5 +14,4 @@ public class PostcodesPOJO {
     public Result getResult() {
         return result;
     }
-
 }
