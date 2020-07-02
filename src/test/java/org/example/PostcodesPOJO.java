@@ -2,7 +2,7 @@ package org.example;
 
 public class PostcodesPOJO {
     private Integer status;
-    private Results results;
+    private Result result;
 
     public PostcodesPOJO() {
     }
@@ -11,7 +11,8 @@ public class PostcodesPOJO {
         return status;
     }
 
-    public Results getResults() {
-        return results;
+    public Result getResult() {
+        return result;
     }
+
 }

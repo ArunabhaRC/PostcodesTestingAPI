@@ -1,45 +1,45 @@
 package org.example;
 
 public class Codes {
-    private String adminDistrict;
-    private String adminCounty;
-    private String adminWard;
+    private String admin_district;
+    private String admin_county;
+    private String admin_ward;
     private String parish;
-    private String parliamentaryConstituency;
+    private String parliamentary_constituency;
     private String ccg;
-    private String ccgId;
+    private String ccg_id;
     private String ced;
     private String nuts;
 
     public Codes() {
     }
 
-    public String getAdminDistrict() {
-        return adminDistrict;
+    public String getadmin_district() {
+        return admin_district;
     }
 
-    public String getAdminCounty() {
-        return adminCounty;
+    public String getadmin_county() {
+        return admin_county;
     }
 
-    public String getAdminWard() {
-        return adminWard;
+    public String getadmin_ward() {
+        return admin_ward;
     }
 
     public String getParish() {
         return parish;
     }
 
-    public String getParliamentaryConstituency() {
-        return parliamentaryConstituency;
+    public String getparliamentary_constituency() {
+        return parliamentary_constituency;
     }
 
     public String getCcg() {
         return ccg;
     }
 
-    public String getCcgId() {
-        return ccgId;
+    public String getccg_id() {
+        return ccg_id;
     }
 
     public String getCed() {

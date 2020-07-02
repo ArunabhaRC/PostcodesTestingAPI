@@ -1,6 +1,6 @@
 package org.example;
 
-public class Results {
+public class Result {
     private String postcode;
     private Integer quality;
     private Integer eastings;
@@ -9,24 +9,24 @@ public class Results {
     private String nhs_ha;
     private Double longitude;
     private Double latitude;
-    private String europeanElectoralRegion;
-    private String primaryCareTrust;
+    private String european_electoral_region;
+    private String primary_care_trust;
     private String region;
     private String lsoa;
     private String msoa;
     private String incode;
     private String outcode;
-    private String parliamentaryConstituency;
-    private String adminDistrict;
+    private String parliamentary_constituency;
+    private String admin_district;
     private String parish;
-    private String adminCounty;
-    private String adminWard;
+    private String admin_county;
+    private String admin_ward;
     private String ced;
     private String ccg;
     private String nuts;
     private Codes codes;
 
-    public Results() {
+    public Result() {
     }
 
     public String getPostcode() {
@@ -49,7 +49,7 @@ public class Results {
         return country;
     }
 
-    public String getNhsHa() {
+    public String getnhs_ha() {
         return nhs_ha;
     }
 
@@ -61,12 +61,12 @@ public class Results {
         return latitude;
     }
 
-    public String getEuropeanElectoralRegion() {
-        return europeanElectoralRegion;
+    public String geteuropean_electoral_region() {
+        return european_electoral_region;
     }
 
-    public String getPrimaryCareTrust() {
-        return primaryCareTrust;
+    public String getprimary_care_trust() {
+        return primary_care_trust;
     }
 
     public String getRegion() {
@@ -89,24 +89,24 @@ public class Results {
         return outcode;
     }
 
-    public String getParliamentaryConstituency() {
-        return parliamentaryConstituency;
+    public String getparliamentary_constituency() {
+        return parliamentary_constituency;
     }
 
-    public String getAdminDistrict() {
-        return adminDistrict;
+    public String getadmin_district() {
+        return admin_district;
     }
 
     public String getParish() {
         return parish;
     }
 
-    public String getAdminCounty() {
-        return adminCounty;
+    public String getadmin_county() {
+        return admin_county;
     }
 
-    public String getAdminWard() {
-        return adminWard;
+    public String getadmin_ward() {
+        return admin_ward;
     }
 
     public Object getCed() {
